@@ -2,9 +2,13 @@
 
 로또6/45 결과 확인과 개인 번호 기록을 위한 정적 웹사이트입니다.
 
-## 배포
+## 배포와 자동 갱신
 
-GitHub 저장소 **Settings → Pages**에서 `Deploy from a branch`를 선택하고, `main` 브랜치의 `/ (root)`를 배포 원본으로 설정합니다.
+GitHub 저장소 **Settings → Pages**에서 Source를 **GitHub Actions**로 선택합니다. 이후 `main` 브랜치에 반영될 때와 매주 토요일 KST 20:50·21:10·21:30에 자동 배포됩니다.
+
+`scripts/update-lotto.mjs`는 동행복권 결과 페이지가 사용하는 조회 엔드포인트에서 다음 회차 결과를 확인하고, 공식 결과가 있을 때만 `data/latest.json`을 갱신합니다. 발표 지연이나 조회 실패 시 기존 최신 결과를 그대로 유지합니다.
+
+초기 단계에서는 별도 DB 대신 Git 저장소의 `data/latest.json`을 최신 결과 저장소로 사용합니다. 회원, 알림, 여러 기기 동기화가 필요해질 때 DB 또는 서버리스 저장소를 도입합니다.
 
 배포 주소: https://lottogood.github.io/
 
