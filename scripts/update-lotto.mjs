@@ -1,7 +1,9 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
 const latestPath = new URL('../data/latest.json', import.meta.url);
+const historyPath = new URL('../data/history.json', import.meta.url);
 const current = JSON.parse(await readFile(latestPath, 'utf8'));
+const history = JSON.parse(await readFile(historyPath, 'utf8'));
 let latest = current;
 
 for (let round = current.round + 1; round <= current.round + 3; round += 1) {
@@ -34,4 +36,6 @@ if (latest.round === current.round) {
 }
 
 await writeFile(latestPath, `${JSON.stringify(latest, null, 2)}\n`);
+const nextHistory = [...history.filter(draw => draw.round !== latest.round), { round: latest.round, date: latest.date, numbers: latest.numbers, bonus: latest.bonus }].sort((a, b) => a.round - b.round).slice(-52);
+await writeFile(historyPath, `${JSON.stringify(nextHistory, null, 2)}\n`);
 console.log(`Updated latest result to round ${latest.round}.`);
