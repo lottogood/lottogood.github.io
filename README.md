@@ -10,6 +10,14 @@ GitHub 저장소 **Settings → Pages**에서 Source를 **GitHub Actions**로 �
 
 초기 단계에서는 별도 DB 대신 Git 저장소의 `data/latest.json`을 최신 결과 저장소로 사용합니다. 회원, 알림, 여러 기기 동기화가 필요해질 때 DB 또는 서버리스 저장소를 도입합니다.
 
+## 카카오 지도 판매점 검색 설정
+
+1. [카카오디벨로퍼스](https://developers.kakao.com)에서 앱을 만들고 **JavaScript 키**를 발급합니다.
+2. 앱의 Web 플랫폼에 `https://lottogood.github.io`를 등록합니다.
+3. `map-config.js`의 `kakaoJavascriptKey`에 해당 키를 넣어 푸시합니다.
+
+브라우저 위치 권한이 허용되면 현재 위치를 기준으로 카카오 키워드 검색을 실행합니다. 권한이 없으면 주소·동네 입력 검색을 사용하며, 위치 정보를 별도 DB에 저장하지 않습니다.
+
 배포 주소: https://lottogood.github.io/
 
 ## 운영 원칙
