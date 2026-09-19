@@ -1,5 +1,23 @@
 [
   {
+    "round": 1242,
+    "date": "2026-09-19",
+    "title": "로또 1242회 당첨번호 2·4·10·16·31·41…1등 9명",
+    "numbers": [
+      2,
+      4,
+      10,
+      16,
+      31,
+      41
+    ],
+    "bonus": 9,
+    "firstWinners": 9,
+    "firstPrizePerWinner": 3281029250,
+    "firstStoreCount": 9,
+    "secondStoreCount": 104
+  },
+  {
     "round": 1241,
     "date": "2026-09-12",
     "title": "로또 1241회 당첨번호 7·13·16·23·24·43…1등 18명",
