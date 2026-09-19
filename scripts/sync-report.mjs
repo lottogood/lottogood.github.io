@@ -15,6 +15,7 @@ const prizeDefinitions = [
 ];
 
 const toDate = value => `${String(value).slice(0, 4)}-${String(value).slice(4, 6)}-${String(value).slice(6, 8)}`;
+const formatWon = amount => `${Number(amount).toLocaleString('ko-KR')}원`;
 const store = item => ({
   order: item.rnum,
   name: item.shpNm,
@@ -69,13 +70,16 @@ export async function syncReport(round) {
   const report = {
     round: item.ltEpsd,
     date,
-    title: `제${item.ltEpsd}회 로또6/45 당첨 결과`,
+    title: `로또 ${item.ltEpsd}회 당첨번호 ${numbers.join('·')}…1등 ${item.rnk1WnNope.toLocaleString('ko-KR')}명`,
     numbers,
     bonus: item.bnsWnNo,
     prizes,
     article: {
-      lead: `제${item.ltEpsd}회 로또6/45 당첨번호는 ${numbers.join(', ')}이며, 보너스번호는 ${item.bnsWnNo}입니다.`,
-      summary: `1등은 ${item.rnk1WnNope.toLocaleString('ko-KR')}명으로 1인당 ${item.rnk1WnAmt.toLocaleString('ko-KR')}원입니다.`
+      deck: `제${item.ltEpsd}회 로또6/45 추첨 결과를 당첨번호와 등수별 당첨금, 1·2등 판매점 정보로 정리했습니다.`,
+      lead: `동행복권이 발표한 제${item.ltEpsd}회 로또6/45 당첨번호는 ${numbers.join(', ')}이며, 보너스번호는 ${item.bnsWnNo}입니다.`,
+      firstPrize: `이번 회차 1등은 ${item.rnk1WnNope.toLocaleString('ko-KR')}명으로, 1인당 ${formatWon(item.rnk1WnAmt)}을 받습니다. 1등 총 당첨금은 ${formatWon(item.rnk1SumWnAmt)}입니다.`,
+      summary: `2등은 ${item.rnk2WnNope.toLocaleString('ko-KR')}명, 3등은 ${item.rnk3WnNope.toLocaleString('ko-KR')}명입니다. 아래 등수별 당첨금과 공식 판매점 정보를 함께 확인할 수 있습니다.`,
+      stores: `공식 당첨판매점 조회 기준으로 1등 판매점은 ${firstStores.total.toLocaleString('ko-KR')}곳, 2등 판매점은 ${secondStores.total.toLocaleString('ko-KR')}곳입니다. 판매점 정보는 추후 정정될 수 있어 방문 전 공식 조회 페이지를 다시 확인해 주세요.`
     },
     stores: { first: firstStores, second: secondStores },
     sources: {
