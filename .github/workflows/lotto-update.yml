@@ -3,10 +3,12 @@ name: Update Lotto result and deploy
 on:
   workflow_dispatch:
   schedule:
-    # Saturday 20:50, 21:10, 21:30 Korea Standard Time (UTC+9)
+    # Saturday 20:50, 21:10, 21:30, 21:50 and Sunday 00:10 Korea Standard Time (UTC+9)
     - cron: '50 11 * * 6'
     - cron: '10 12 * * 6'
     - cron: '30 12 * * 6'
+    - cron: '50 12 * * 6'
+    - cron: '10 15 * * 6'
   push:
     branches: [main]
 
@@ -32,15 +34,17 @@ jobs:
           node-version: 20
       - name: Fetch the newest official result
         run: node scripts/update-lotto.mjs
+      - name: Create or refresh the latest result report
+        run: node scripts/sync-report.mjs
       - name: Commit new result data when available
         run: |
-          if git diff --quiet -- data/latest.json data/history.json; then
+          if git diff --quiet -- data/latest.json data/history.json data/reports; then
             echo "No new result to commit."
           else
             git config user.name "lottogood-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/latest.json data/history.json
-            git commit -m "Update Lotto result"
+            git add data/latest.json data/history.json data/reports
+            git commit -m "Update Lotto result report"
             git push
           fi
       - uses: actions/configure-pages@v5

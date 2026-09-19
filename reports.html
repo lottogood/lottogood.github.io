@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="로또굿 회차별 로또6/45 당첨 결과 리포트">
+  <title>당첨 결과 리포트 | 로또굿</title>
+  <style>
+    :root{--green:#146c43;--deep:#0a3d27;--lime:#d9f99d;--cream:#f8f7f1;--ink:#1b2923;--muted:#62716a;--line:#dfe8df}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}a{color:inherit;text-decoration:none}.wrap{width:min(920px,calc(100% - 32px));margin:auto}.header{background:var(--deep);color:#fff}.nav{min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-size:1.25rem;font-weight:900;letter-spacing:-.06em}.brand b{color:var(--lime)}.nav a:last-child{color:var(--lime);font-size:.9rem;font-weight:800}.hero{padding:54px 0 42px;background:linear-gradient(115deg,#0a3d27,#176e46);color:#fff}.eyebrow{color:var(--lime);font-size:.83rem;font-weight:850;letter-spacing:.05em}.hero h1{margin:7px 0;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.065em}.hero p{margin:0;color:#d8ebe0}.content{padding:38px 0 64px}.report-list{display:grid;gap:13px}.report-card{display:block;background:#fff;border:1px solid var(--line);border-radius:18px;padding:21px;transition:.18s}.report-card:hover{border-color:#9fc6a7;transform:translateY(-2px)}.report-card__top{display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--muted);font-size:.83rem}.report-card h2{margin:8px 0 10px;font-size:1.2rem;letter-spacing:-.045em}.ball-row{display:flex;flex-wrap:wrap;gap:6px}.ball{width:29px;height:29px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:.75rem;font-weight:850}.yellow{background:#fbc400}.blue{background:#6699cc}.red{background:#ff7272}.gray{background:#aaa}.green{background:#b0d840}.bonus{outline:2px solid #d6e9d6;outline-offset:2px}.report-card__summary{margin:13px 0 0;color:#406050;font-size:.88rem}.empty{padding:32px;border:1px dashed #b9ceb9;border-radius:16px;text-align:center;color:var(--muted)}.footer{padding:28px 0;color:#607268;font-size:.82rem;border-top:1px solid var(--line)}@media(max-width:520px){.hero{padding:42px 0 34px}.report-card{padding:18px}}
+  </style>
+</head>
+<body>
+  <header class="header"><div class="wrap nav"><a class="brand" href="index.html">로또<b>굿</b></a><a href="index.html">메인으로</a></div></header>
+  <main>
+    <section class="hero"><div class="wrap"><div class="eyebrow">LOTTOGOOD REPORTS</div><h1>당첨 결과 리포트</h1><p>동행복권 공식 발표 자료를 기준으로 회차별 당첨 결과와 1·2등 배출 판매점을 정리합니다.</p></div></section>
+    <section class="content"><div class="wrap"><div class="report-list" id="report-list"><p class="empty">리포트를 불러오는 중입니다.</p></div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap">로또굿 · 판매점 정보와 당첨금은 동행복권 공식 자료를 기준으로 안내합니다.</div></footer>
+  <script>
+    const ballClass=n=>n<=10?'yellow':n<=20?'blue':n<=30?'red':n<=40?'gray':'green';
+    const money=value=>new Intl.NumberFormat('ko-KR').format(value)+'원';
+    const list=document.querySelector('#report-list');
+    fetch('data/reports/index.json',{cache:'no-store'}).then(response=>response.ok?response.json():Promise.reject()).then(reports=>{
+      if(!reports.length){list.innerHTML='<p class="empty">아직 발행된 리포트가 없습니다.</p>';return}
+      list.innerHTML=reports.map(report=>'<a class="report-card" href="report.html?round='+report.round+'"><div class="report-card__top"><span>'+report.date.replaceAll('-','.')+'</span><span>제'+report.round+'회 ↗</span></div><h2>'+report.title+'</h2><div class="ball-row">'+report.numbers.map(number=>'<span class="ball '+ballClass(number)+'">'+number+'</span>').join('')+'<span class="ball '+ballClass(report.bonus)+' bonus">'+report.bonus+'</span></div><p class="report-card__summary">1등 '+report.firstWinners.toLocaleString('ko-KR')+'명 · 1인당 '+money(report.firstPrizePerWinner)+' · 1등 판매점 '+report.firstStoreCount+'곳 · 2등 판매점 '+report.secondStoreCount+'곳</p></a>').join('');
+    }).catch(()=>{list.innerHTML='<p class="empty">리포트를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>'});
+  </script>
+</body>
+</html>

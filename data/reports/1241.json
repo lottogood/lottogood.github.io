@@ -1,0 +1,1153 @@
+{
+  "round": 1241,
+  "date": "2026-09-12",
+  "title": "제1241회 로또6/45 당첨 결과",
+  "numbers": [
+    7,
+    13,
+    16,
+    23,
+    24,
+    43
+  ],
+  "bonus": 9,
+  "prizes": [
+    {
+      "rank": "1등",
+      "match": "당첨번호 6개 일치",
+      "winners": 18,
+      "prizePerWinner": 1628391980,
+      "prizeTotal": 29311055640
+    },
+    {
+      "rank": "2등",
+      "match": "당첨번호 5개 + 보너스번호 일치",
+      "winners": 90,
+      "prizePerWinner": 54279733,
+      "prizeTotal": 4885175970
+    },
+    {
+      "rank": "3등",
+      "match": "당첨번호 5개 일치",
+      "winners": 3254,
+      "prizePerWinner": 1501284,
+      "prizeTotal": 4885178136
+    },
+    {
+      "rank": "4등",
+      "match": "당첨번호 4개 일치",
+      "winners": 165086,
+      "prizePerWinner": 50000,
+      "prizeTotal": 8254300000
+    },
+    {
+      "rank": "5등",
+      "match": "당첨번호 3개 일치",
+      "winners": 2724667,
+      "prizePerWinner": 5000,
+      "prizeTotal": 13623335000
+    }
+  ],
+  "article": {
+    "lead": "제1241회 로또6/45 당첨번호는 7, 13, 16, 23, 24, 43이며, 보너스번호는 9입니다.",
+    "summary": "1등은 18명으로 1인당 1,628,391,980원입니다."
+  },
+  "stores": {
+    "first": {
+      "state": "complete",
+      "total": 18,
+      "list": [
+        {
+          "order": 1,
+          "name": "명동역5번출구가판",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 중구 퇴계로 115-2 가판",
+          "latitude": 37.560899,
+          "longitude": 126.9845,
+          "officialStoreId": "11101681"
+        },
+        {
+          "order": 2,
+          "name": "인터넷 복권판매사이트",
+          "region": "서울",
+          "selection": "수동",
+          "address": "동행복권(dhlottery.co.kr)",
+          "latitude": 37.482063,
+          "longitude": 127.015788,
+          "officialStoreId": "51100000"
+        },
+        {
+          "order": 3,
+          "name": "인터넷 복권판매사이트",
+          "region": "서울",
+          "selection": "자동",
+          "address": "동행복권(dhlottery.co.kr)",
+          "latitude": 37.482063,
+          "longitude": 127.015788,
+          "officialStoreId": "51100000"
+        },
+        {
+          "order": 4,
+          "name": "인터넷 복권판매사이트",
+          "region": "서울",
+          "selection": "수동",
+          "address": "동행복권(dhlottery.co.kr)",
+          "latitude": 37.482063,
+          "longitude": 127.015788,
+          "officialStoreId": "51100000"
+        },
+        {
+          "order": 5,
+          "name": "인터넷 복권판매사이트",
+          "region": "서울",
+          "selection": "수동",
+          "address": "동행복권(dhlottery.co.kr)",
+          "latitude": 37.482063,
+          "longitude": 127.015788,
+          "officialStoreId": "51100000"
+        },
+        {
+          "order": 6,
+          "name": "인터넷 복권판매사이트",
+          "region": "서울",
+          "selection": "수동",
+          "address": "동행복권(dhlottery.co.kr)",
+          "latitude": 37.482063,
+          "longitude": 127.015788,
+          "officialStoreId": "51100000"
+        },
+        {
+          "order": 7,
+          "name": "영훈슈퍼마켓",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 도봉구 덕릉로 222",
+          "latitude": 37.637803,
+          "longitude": 127.03762,
+          "officialStoreId": "11100437"
+        },
+        {
+          "order": 8,
+          "name": "유성포장",
+          "region": "서울",
+          "selection": "수동",
+          "address": "서울 구로구 도림로 85 1층코너",
+          "latitude": 37.490443,
+          "longitude": 126.8926,
+          "officialStoreId": "11190060"
+        },
+        {
+          "order": 9,
+          "name": "행운복권방",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 부산진구 냉정로 273",
+          "latitude": 35.151274,
+          "longitude": 129.02969,
+          "officialStoreId": "12600089"
+        },
+        {
+          "order": 10,
+          "name": "행운로또",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 동래구 충렬대로428번길 30 102호 1호",
+          "latitude": 35.195184,
+          "longitude": 129.10421,
+          "officialStoreId": "12600296"
+        },
+        {
+          "order": 11,
+          "name": "칠성복권방",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 용인시 처인구 금령로 99-1 1층 101호",
+          "latitude": 37.235736,
+          "longitude": 127.20738,
+          "officialStoreId": "14142703"
+        },
+        {
+          "order": 12,
+          "name": "복권전문점",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 시흥시 진말로9번길 2 부석프라자114호",
+          "latitude": 37.378558,
+          "longitude": 126.785153,
+          "officialStoreId": "14190214"
+        },
+        {
+          "order": 13,
+          "name": "복래로또",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 광주시 태재로 133 1층",
+          "latitude": 37.357945,
+          "longitude": 127.16399,
+          "officialStoreId": "14140612"
+        },
+        {
+          "order": 14,
+          "name": "로또모형방",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 고양시 일산서구 송포로 35 1층",
+          "latitude": 37.669633,
+          "longitude": 126.73237,
+          "officialStoreId": "14130095"
+        },
+        {
+          "order": 15,
+          "name": "초원복권방",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 천안시 동남구 신촌4로 29-1 1층(코너상가)",
+          "latitude": 36.788879,
+          "longitude": 127.12461,
+          "officialStoreId": "14440368"
+        },
+        {
+          "order": 16,
+          "name": "역전복권방",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 예산군 아리랑로 7",
+          "latitude": 36.686422,
+          "longitude": 126.830094,
+          "officialStoreId": "14410033"
+        },
+        {
+          "order": 17,
+          "name": "대박마트복권방",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 아산시 음봉로 844 태화상가1층103호",
+          "latitude": 36.826485,
+          "longitude": 127.09925,
+          "officialStoreId": "14400024"
+        },
+        {
+          "order": 18,
+          "name": "로또 봉하점",
+          "region": "경남",
+          "selection": "자동",
+          "address": "경남 김해시 봉하로 24 CU편의점 좌측 복권판매점",
+          "latitude": 35.314579,
+          "longitude": 128.76035,
+          "officialStoreId": "14840147"
+        }
+      ]
+    },
+    "second": {
+      "state": "complete",
+      "total": 90,
+      "list": [
+        {
+          "order": 1,
+          "name": "묵동식품",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 중랑구 동일로 919",
+          "latitude": 37.61247,
+          "longitude": 127.07706,
+          "officialStoreId": "11100558"
+        },
+        {
+          "order": 2,
+          "name": "리더스",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 중랑구 봉화산로 194 신아타운105",
+          "latitude": 37.606437,
+          "longitude": 127.09469,
+          "officialStoreId": "11101518"
+        },
+        {
+          "order": 3,
+          "name": "에스비 상사",
+          "region": "서울",
+          "selection": "수동",
+          "address": "서울 중구 퇴계로86길 29 1층",
+          "latitude": 37.564249,
+          "longitude": 127.01981,
+          "officialStoreId": "11140718"
+        },
+        {
+          "order": 4,
+          "name": "노다지복권방",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 종로구 종로 331 1층",
+          "latitude": 37.572859,
+          "longitude": 127.01438,
+          "officialStoreId": "11101687"
+        },
+        {
+          "order": 5,
+          "name": "행운 복권 판매점",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 은평구 불광로 46-1 1층",
+          "latitude": 37.61146,
+          "longitude": 126.93082,
+          "officialStoreId": "11140980"
+        },
+        {
+          "order": 6,
+          "name": "로또킹",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 영등포구 영중로 2 1층(영등포동3가)",
+          "latitude": 37.516741,
+          "longitude": 126.90673,
+          "officialStoreId": "11100959"
+        },
+        {
+          "order": 7,
+          "name": "잠실매점",
+          "region": "서울",
+          "selection": "수동",
+          "address": "서울 송파구 올림픽로 269 잠실역 8번출구 앞 가판",
+          "latitude": 37.514459,
+          "longitude": 127.10058,
+          "officialStoreId": "11101248"
+        },
+        {
+          "order": 8,
+          "name": "인터넷 복권판매사이트",
+          "region": "서울",
+          "selection": "자동",
+          "address": "동행복권(dhlottery.co.kr)",
+          "latitude": 37.482063,
+          "longitude": 127.015788,
+          "officialStoreId": "51100000"
+        },
+        {
+          "order": 9,
+          "name": "인터넷 복권판매사이트",
+          "region": "서울",
+          "selection": "자동",
+          "address": "동행복권(dhlottery.co.kr)",
+          "latitude": 37.482063,
+          "longitude": 127.015788,
+          "officialStoreId": "51100000"
+        },
+        {
+          "order": 10,
+          "name": "인터넷 복권판매사이트",
+          "region": "서울",
+          "selection": "자동",
+          "address": "동행복권(dhlottery.co.kr)",
+          "latitude": 37.482063,
+          "longitude": 127.015788,
+          "officialStoreId": "51100000"
+        },
+        {
+          "order": 11,
+          "name": "대박종합복권가로판매점",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 서대문구 신촌로 75-2 가로판매대",
+          "latitude": 37.556066,
+          "longitude": 126.93474,
+          "officialStoreId": "11101120"
+        },
+        {
+          "order": 12,
+          "name": "천하통일",
+          "region": "서울",
+          "selection": "수동",
+          "address": "서울 동작구 성대로1길 11 1층 103호",
+          "latitude": 37.500855,
+          "longitude": 126.933312,
+          "officialStoreId": "11141235"
+        },
+        {
+          "order": 13,
+          "name": "체인지 로또",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 관악구 조원로 14-8 1층",
+          "latitude": 37.483007,
+          "longitude": 126.903695,
+          "officialStoreId": "11140040"
+        },
+        {
+          "order": 14,
+          "name": "다온 편의점",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 강북구 오현로 190 1층 103호",
+          "latitude": 37.628474,
+          "longitude": 127.03941,
+          "officialStoreId": "11100282"
+        },
+        {
+          "order": 15,
+          "name": "종합가판점. 버스표",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 강남구 강남대로 326-2 (역삼디오슈페리움 앞)",
+          "latitude": 37.492161,
+          "longitude": 127.03065,
+          "officialStoreId": "11141565"
+        },
+        {
+          "order": 16,
+          "name": "삼성대박복권방",
+          "region": "서울",
+          "selection": "자동",
+          "address": "서울 강남구 봉은사로74길 13 101호",
+          "latitude": 37.51167,
+          "longitude": 127.05187,
+          "officialStoreId": "11110667"
+        },
+        {
+          "order": 17,
+          "name": "둘둘복권방",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 해운대구 재송1로60번길 16 1016호(재송동)",
+          "latitude": 35.186968,
+          "longitude": 129.12387,
+          "officialStoreId": "12640664"
+        },
+        {
+          "order": 18,
+          "name": "백금당",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 중구 중구로29번길 26",
+          "latitude": 35.100521,
+          "longitude": 129.02653,
+          "officialStoreId": "12610223"
+        },
+        {
+          "order": 19,
+          "name": "지에스(GS)25 수영강동원점",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 수영구 수미로14번길 39-1 1층(수영동)",
+          "latitude": 35.172859,
+          "longitude": 129.11097,
+          "officialStoreId": "12640458"
+        },
+        {
+          "order": 20,
+          "name": "로또 명당",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 동구 범일로 64-1 1층",
+          "latitude": 35.135769,
+          "longitude": 129.05968,
+          "officialStoreId": "12640115"
+        },
+        {
+          "order": 21,
+          "name": "부일카서비스",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 동구 자성로133번길 35",
+          "latitude": 35.140055,
+          "longitude": 129.06305,
+          "officialStoreId": "12600054"
+        },
+        {
+          "order": 22,
+          "name": "플러스 복권방",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 남구 수영로39번나길 11",
+          "latitude": 35.140385,
+          "longitude": 129.07238,
+          "officialStoreId": "12640684"
+        },
+        {
+          "order": 23,
+          "name": "서울유통",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 남구 석포로 57-1",
+          "latitude": 35.123723,
+          "longitude": 129.08698,
+          "officialStoreId": "12600353"
+        },
+        {
+          "order": 24,
+          "name": "보물섬",
+          "region": "부산",
+          "selection": "수동",
+          "address": "부산 기장군 정관2로 9 제214동B205호(이지 더원 2차 아파트)",
+          "latitude": 35.333203,
+          "longitude": 129.16327,
+          "officialStoreId": "12640680"
+        },
+        {
+          "order": 25,
+          "name": "보물섬",
+          "region": "부산",
+          "selection": "수동",
+          "address": "부산 기장군 정관2로 9 제214동B205호(이지 더원 2차 아파트)",
+          "latitude": 35.333203,
+          "longitude": 129.16327,
+          "officialStoreId": "12640680"
+        },
+        {
+          "order": 26,
+          "name": "보물섬",
+          "region": "부산",
+          "selection": "수동",
+          "address": "부산 기장군 정관2로 9 제214동B205호(이지 더원 2차 아파트)",
+          "latitude": 35.333203,
+          "longitude": 129.16327,
+          "officialStoreId": "12640680"
+        },
+        {
+          "order": 27,
+          "name": "미소복권방",
+          "region": "부산",
+          "selection": "수동",
+          "address": "부산 강서구 명지국제8로 286 104호",
+          "latitude": 35.097452,
+          "longitude": 128.924022,
+          "officialStoreId": "12640378"
+        },
+        {
+          "order": 28,
+          "name": "미소복권방",
+          "region": "부산",
+          "selection": "자동",
+          "address": "부산 강서구 명지국제8로 286 104호",
+          "latitude": 35.097452,
+          "longitude": 128.924022,
+          "officialStoreId": "12640378"
+        },
+        {
+          "order": 29,
+          "name": "1등다수복권마트",
+          "region": "대구",
+          "selection": "자동",
+          "address": "대구 북구 팔달로27길 81 1층",
+          "latitude": 35.892204,
+          "longitude": 128.56796,
+          "officialStoreId": "12790038"
+        },
+        {
+          "order": 30,
+          "name": "코사마트금강점",
+          "region": "대구",
+          "selection": "자동",
+          "address": "대구 달서구 용산로 204 1층 코사마트",
+          "latitude": 35.855734,
+          "longitude": 128.53083,
+          "officialStoreId": "12700127"
+        },
+        {
+          "order": 31,
+          "name": "로또복권방(신현)",
+          "region": "인천",
+          "selection": "자동",
+          "address": "인천 서해구 신현로 44 1층102호",
+          "latitude": 37.517375,
+          "longitude": 126.67227,
+          "officialStoreId": "12810177"
+        },
+        {
+          "order": 32,
+          "name": "만복래",
+          "region": "인천",
+          "selection": "자동",
+          "address": "인천 부평구 주부토로 20-2 1층",
+          "latitude": 37.496833,
+          "longitude": 126.72483,
+          "officialStoreId": "12810056"
+        },
+        {
+          "order": 33,
+          "name": "노다지복권방",
+          "region": "인천",
+          "selection": "자동",
+          "address": "인천 미추홀구 한나루로 400 외7필지125호",
+          "latitude": 37.443245,
+          "longitude": 126.66467,
+          "officialStoreId": "12800071"
+        },
+        {
+          "order": 34,
+          "name": "로또맛집",
+          "region": "인천",
+          "selection": "자동",
+          "address": "인천 남동구 소래역남로16번길 29 1층 108호",
+          "latitude": 37.398589,
+          "longitude": 126.73508,
+          "officialStoreId": "12840106"
+        },
+        {
+          "order": 35,
+          "name": "도깨비복권방",
+          "region": "인천",
+          "selection": "자동",
+          "address": "인천 계양구 봉오대로 677",
+          "latitude": 37.530955,
+          "longitude": 126.72398,
+          "officialStoreId": "12890044"
+        },
+        {
+          "order": 36,
+          "name": "오천억복권방",
+          "region": "전남광주",
+          "selection": "자동",
+          "address": "전남광주 서구 상무대로 1087",
+          "latitude": 35.152922,
+          "longitude": 126.88072,
+          "officialStoreId": "12900033"
+        },
+        {
+          "order": 37,
+          "name": "영화복권(버들점)",
+          "region": "전남광주",
+          "selection": "반자동",
+          "address": "전남광주 서구 상무버들로 32",
+          "latitude": 35.164624,
+          "longitude": 126.86001,
+          "officialStoreId": "12900151"
+        },
+        {
+          "order": 38,
+          "name": "새상무복권",
+          "region": "전남광주",
+          "selection": "자동",
+          "address": "전남광주 서구 치평로 30 수암빌딩 1층 102호",
+          "latitude": 35.149953,
+          "longitude": 126.84766,
+          "officialStoreId": "12910006"
+        },
+        {
+          "order": 39,
+          "name": "해피+24시편의점",
+          "region": "전남광주",
+          "selection": "자동",
+          "address": "전남광주 북구 하서로 330",
+          "latitude": 35.20473,
+          "longitude": 126.8738,
+          "officialStoreId": "12900103"
+        },
+        {
+          "order": 40,
+          "name": "쨍하고 해뜰날",
+          "region": "전남광주",
+          "selection": "자동",
+          "address": "전남광주 북구 동문대로 24-1 1층",
+          "latitude": 35.167027,
+          "longitude": 126.91983,
+          "officialStoreId": "12940240"
+        },
+        {
+          "order": 41,
+          "name": "광주도서유통",
+          "region": "전남광주",
+          "selection": "자동",
+          "address": "전남광주 남구 봉선1로 79",
+          "latitude": 35.128153,
+          "longitude": 126.913888,
+          "officialStoreId": "12900121"
+        },
+        {
+          "order": 42,
+          "name": "돈벼락마트",
+          "region": "대전",
+          "selection": "자동",
+          "address": "대전 중구 충무로 169 1층 슈퍼",
+          "latitude": 36.320908,
+          "longitude": 127.43496,
+          "officialStoreId": "13000141"
+        },
+        {
+          "order": 43,
+          "name": "운수대통복권방",
+          "region": "대전",
+          "selection": "자동",
+          "address": "대전 대덕구 대전로 1211 102호(오정동)",
+          "latitude": 36.36229,
+          "longitude": 127.417601,
+          "officialStoreId": "13040133"
+        },
+        {
+          "order": 44,
+          "name": "복권방(행운열차)",
+          "region": "울산",
+          "selection": "자동",
+          "address": "울산 중구 다운로 114",
+          "latitude": 35.563092,
+          "longitude": 129.26726,
+          "officialStoreId": "13100028"
+        },
+        {
+          "order": 45,
+          "name": "대박예감",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 화성시 병점구 영통로 36 1층",
+          "latitude": 37.233971,
+          "longitude": 127.06398,
+          "officialStoreId": "14190250"
+        },
+        {
+          "order": 46,
+          "name": "청기와복권",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 화성시 만세구 사강로 160-2 105호",
+          "latitude": 37.212649,
+          "longitude": 126.73348,
+          "officialStoreId": "14141647"
+        },
+        {
+          "order": 47,
+          "name": "교하로또판매점",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 파주시 파주로 266 아이비타워 1층 112호",
+          "latitude": 37.72616,
+          "longitude": 126.71824,
+          "officialStoreId": "14143101"
+        },
+        {
+          "order": 48,
+          "name": "럭키로또",
+          "region": "경기",
+          "selection": "수동",
+          "address": "경기 이천시 이섭대천로 1226 1층",
+          "latitude": 37.279677,
+          "longitude": 127.447,
+          "officialStoreId": "14190012"
+        },
+        {
+          "order": 49,
+          "name": "대성미니슈퍼",
+          "region": "경기",
+          "selection": "수동",
+          "address": "경기 이천시 샘재로 154 1층",
+          "latitude": 37.117272,
+          "longitude": 127.62926,
+          "officialStoreId": "14110128"
+        },
+        {
+          "order": 50,
+          "name": "터미널식품",
+          "region": "경기",
+          "selection": "수동",
+          "address": "경기 의정부시 동일로 640",
+          "latitude": 37.745207,
+          "longitude": 127.05509,
+          "officialStoreId": "14100388"
+        },
+        {
+          "order": 51,
+          "name": "행운복권방",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 의정부시 충의로 55 1층",
+          "latitude": 37.736763,
+          "longitude": 127.0872,
+          "officialStoreId": "14110305"
+        },
+        {
+          "order": 52,
+          "name": "일등복권",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 양주시 송랑로 223",
+          "latitude": 37.804485,
+          "longitude": 127.08531,
+          "officialStoreId": "14120076"
+        },
+        {
+          "order": 53,
+          "name": "로또명당가두판매점",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 안양시 동안구 경수대로 848-2",
+          "latitude": 37.394617,
+          "longitude": 126.941416,
+          "officialStoreId": "14100587"
+        },
+        {
+          "order": 54,
+          "name": "(I.A) 로또마트",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 안산시 단원구 신길로 9-4",
+          "latitude": 37.331462,
+          "longitude": 126.78646,
+          "officialStoreId": "14130083"
+        },
+        {
+          "order": 55,
+          "name": "천하명당복권방",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 수원시 팔달구 매산로 2",
+          "latitude": 37.266647,
+          "longitude": 127.00188,
+          "officialStoreId": "14100118"
+        },
+        {
+          "order": 56,
+          "name": "1번지복권방",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 성남시 중원구 희망로 448 1층일부 (금광동)",
+          "latitude": 37.444901,
+          "longitude": 127.15729,
+          "officialStoreId": "14141241"
+        },
+        {
+          "order": 57,
+          "name": "영진슈퍼",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 성남시 분당구 야탑로69번길 21 1층 117호",
+          "latitude": 37.411605,
+          "longitude": 127.126329,
+          "officialStoreId": "14100494"
+        },
+        {
+          "order": 58,
+          "name": "역곡역전로또",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 부천시 경인로 512 1층 일부",
+          "latitude": 37.484278,
+          "longitude": 126.81219,
+          "officialStoreId": "14100520"
+        },
+        {
+          "order": 59,
+          "name": "대운",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 김포시 대명항로 209",
+          "latitude": 37.65363,
+          "longitude": 126.59596,
+          "officialStoreId": "14140235"
+        },
+        {
+          "order": 60,
+          "name": "가일복권",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 과천시 과천대로7나길 18 제1층 102호",
+          "latitude": 37.415567,
+          "longitude": 126.97882,
+          "officialStoreId": "14141989"
+        },
+        {
+          "order": 61,
+          "name": "이마트24 일산덕이점",
+          "region": "경기",
+          "selection": "자동",
+          "address": "경기 고양시 일산서구 미래로 164 1층",
+          "latitude": 37.693131,
+          "longitude": 126.74688,
+          "officialStoreId": "14190176"
+        },
+        {
+          "order": 62,
+          "name": "횡성섬강로또",
+          "region": "강원",
+          "selection": "자동",
+          "address": "강원 횡성군 북천로 20 CU편의점 1층",
+          "latitude": 37.492926,
+          "longitude": 127.99172,
+          "officialStoreId": "14210017"
+        },
+        {
+          "order": 63,
+          "name": "평창로또",
+          "region": "강원",
+          "selection": "수동",
+          "address": "강원 평창군 평창중앙로 42",
+          "latitude": 37.36782,
+          "longitude": 128.39569,
+          "officialStoreId": "14240125"
+        },
+        {
+          "order": 64,
+          "name": "남부시장 로또",
+          "region": "강원",
+          "selection": "자동",
+          "address": "강원 원주시 치악로 1814-1 1층",
+          "latitude": 37.344261,
+          "longitude": 127.95526,
+          "officialStoreId": "14240154"
+        },
+        {
+          "order": 65,
+          "name": "더블로또",
+          "region": "강원",
+          "selection": "자동",
+          "address": "강원 양구군 양구새싹로 22 1층 GS25",
+          "latitude": 38.102083,
+          "longitude": 127.98788,
+          "officialStoreId": "14240093"
+        },
+        {
+          "order": 66,
+          "name": "빵야복권",
+          "region": "충북",
+          "selection": "자동",
+          "address": "충북 진천군 귀농3길 136 해오름타운, 117호",
+          "latitude": 36.90857,
+          "longitude": 127.4878,
+          "officialStoreId": "14340331"
+        },
+        {
+          "order": 67,
+          "name": "금강로또",
+          "region": "충북",
+          "selection": "자동",
+          "address": "충북 옥천군 금강로 596 금강휴게소",
+          "latitude": 36.27945,
+          "longitude": 127.673725,
+          "officialStoreId": "14340020"
+        },
+        {
+          "order": 68,
+          "name": "천하명당복권방",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 홍성군 조양로 180",
+          "latitude": 36.60073,
+          "longitude": 126.66948,
+          "officialStoreId": "14400013"
+        },
+        {
+          "order": 69,
+          "name": "로또복권두정점",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 천안시 서북구 두정로 251 대원빌딩104호",
+          "latitude": 36.833448,
+          "longitude": 127.145,
+          "officialStoreId": "14410055"
+        },
+        {
+          "order": 70,
+          "name": "참사랑복권방",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 천안시 서북구 백석3로 134 대건프라자 109호",
+          "latitude": 36.822196,
+          "longitude": 127.12501,
+          "officialStoreId": "14440404"
+        },
+        {
+          "order": 71,
+          "name": "잉크와복권방",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 천안시 동남구 차돌로 84",
+          "latitude": 36.802076,
+          "longitude": 127.13941,
+          "officialStoreId": "14490015"
+        },
+        {
+          "order": 72,
+          "name": "복권명당 신세계",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 천안시 동남구 터미널2로 26-1 1층(북쪽)",
+          "latitude": 36.821312,
+          "longitude": 127.15842,
+          "officialStoreId": "14410048"
+        },
+        {
+          "order": 73,
+          "name": "일등복권",
+          "region": "충남",
+          "selection": "자동",
+          "address": "충남 예산군 충서로 279 1층",
+          "latitude": 36.664592,
+          "longitude": 126.77194,
+          "officialStoreId": "14440548"
+        },
+        {
+          "order": 74,
+          "name": "흥건슈퍼",
+          "region": "전북",
+          "selection": "자동",
+          "address": "전북 전주시 완산구 거마평로 25 흥건슈퍼",
+          "latitude": 35.794404,
+          "longitude": 127.115781,
+          "officialStoreId": "14500087"
+        },
+        {
+          "order": 75,
+          "name": "로또로복권",
+          "region": "전북",
+          "selection": "자동",
+          "address": "전북 전주시 완산구 모악로 4729",
+          "latitude": 35.791546,
+          "longitude": 127.131295,
+          "officialStoreId": "14540105"
+        },
+        {
+          "order": 76,
+          "name": "돈방석",
+          "region": "전북",
+          "selection": "자동",
+          "address": "전북 전주시 완산구 서신로 35",
+          "latitude": 35.828547,
+          "longitude": 127.115581,
+          "officialStoreId": "14510035"
+        },
+        {
+          "order": 77,
+          "name": "(sk)대박상회",
+          "region": "전북",
+          "selection": "자동",
+          "address": "전북 전주시 완산구 홍산1길 7",
+          "latitude": 35.814104,
+          "longitude": 127.108626,
+          "officialStoreId": "14500122"
+        },
+        {
+          "order": 78,
+          "name": "도깨비방망이",
+          "region": "전남광주",
+          "selection": "자동",
+          "address": "전남광주 완도군 장보고대로 220 도깨비방망이",
+          "latitude": 34.316079,
+          "longitude": 126.74917,
+          "officialStoreId": "14690027"
+        },
+        {
+          "order": 79,
+          "name": "성공복권방",
+          "region": "전남광주",
+          "selection": "수동",
+          "address": "전남광주 순천시 연향2로 4",
+          "latitude": 34.947984,
+          "longitude": 127.515819,
+          "officialStoreId": "14640068"
+        },
+        {
+          "order": 80,
+          "name": "1등복권방",
+          "region": "전남광주",
+          "selection": "자동",
+          "address": "전남광주 목포시 수문로 3-1 1층",
+          "latitude": 34.791267,
+          "longitude": 126.38544,
+          "officialStoreId": "14640197"
+        },
+        {
+          "order": 81,
+          "name": "도로시 로또",
+          "region": "경북",
+          "selection": "수동",
+          "address": "경북 포항시 북구 양학천로 69 상가 1층 우측",
+          "latitude": 36.021069,
+          "longitude": 129.359,
+          "officialStoreId": "14740051"
+        },
+        {
+          "order": 82,
+          "name": "칠복복권방",
+          "region": "경북",
+          "selection": "반자동",
+          "address": "경북 경주시 입실로 68",
+          "latitude": 35.714399,
+          "longitude": 129.32461,
+          "officialStoreId": "14740072"
+        },
+        {
+          "order": 83,
+          "name": "하나유통",
+          "region": "경북",
+          "selection": "반자동",
+          "address": "경북 경산시 공단2로 7",
+          "latitude": 35.871756,
+          "longitude": 128.81996,
+          "officialStoreId": "14700020"
+        },
+        {
+          "order": 84,
+          "name": "목화휴게소",
+          "region": "경남",
+          "selection": "자동",
+          "address": "경남 사천시 사천대로 912",
+          "latitude": 35.001748,
+          "longitude": 128.05415,
+          "officialStoreId": "14810122"
+        },
+        {
+          "order": 85,
+          "name": "삼안복권방",
+          "region": "경남",
+          "selection": "자동",
+          "address": "경남 김해시 김해대로2579번길 78 1층",
+          "latitude": 35.235616,
+          "longitude": 128.90985,
+          "officialStoreId": "14840601"
+        },
+        {
+          "order": 86,
+          "name": "칠산명당로또앤토토",
+          "region": "경남",
+          "selection": "자동",
+          "address": "경남 김해시 칠산로 249 복권판매점",
+          "latitude": 35.195879,
+          "longitude": 128.84537,
+          "officialStoreId": "14840290"
+        },
+        {
+          "order": 87,
+          "name": "행운복권방",
+          "region": "제주",
+          "selection": "수동",
+          "address": "제주 제주시 한림중앙로 12",
+          "latitude": 33.413691,
+          "longitude": 126.26439,
+          "officialStoreId": "14910007"
+        },
+        {
+          "order": 88,
+          "name": "제주 일번가",
+          "region": "제주",
+          "selection": "수동",
+          "address": "제주 제주시 하귀로23길 1",
+          "latitude": 33.480111,
+          "longitude": 126.40273,
+          "officialStoreId": "14940097"
+        },
+        {
+          "order": 89,
+          "name": "정존복권",
+          "region": "제주",
+          "selection": "수동",
+          "address": "제주 제주시 정존11길 68 정든마을3단지 상가 101호",
+          "latitude": 33.488728,
+          "longitude": 126.47213,
+          "officialStoreId": "14910012"
+        },
+        {
+          "order": 90,
+          "name": "행운복권방",
+          "region": "제주",
+          "selection": "반자동",
+          "address": "제주 제주시 한림중앙로 12",
+          "latitude": 33.413691,
+          "longitude": 126.26439,
+          "officialStoreId": "14910007"
+        }
+      ]
+    }
+  },
+  "sources": {
+    "result": "https://www.dhlottery.co.kr/lt645/selectPstLt645Info.do?srchLtEpsd=1241",
+    "stores": "https://www.dhlottery.co.kr/wnprchsplcsrch/home"
+  }
+}
