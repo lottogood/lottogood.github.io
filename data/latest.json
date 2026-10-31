@@ -1,18 +1,18 @@
 {
-  "round": 1247,
-  "date": "2026-10-24",
+  "round": 1248,
+  "date": "2026-10-31",
   "numbers": [
-    8,
-    14,
-    21,
-    22,
-    42,
-    45
+    16,
+    18,
+    27,
+    36,
+    38,
+    42
   ],
-  "bonus": 24,
-  "firstPrizeTotal": 29099514000,
-  "firstWinners": 8,
-  "firstPrizePerWinner": 3637439250,
-  "source": "https://www.dhlottery.co.kr/lt645/selectPstLt645Info.do?srchLtEpsd=1247",
-  "updatedAt": "2026-10-24T14:54:33.975Z"
+  "bonus": 22,
+  "firstPrizeTotal": 29004876750,
+  "firstWinners": 15,
+  "firstPrizePerWinner": 1933658450,
+  "source": "https://www.dhlottery.co.kr/lt645/selectPstLt645Info.do?srchLtEpsd=1248",
+  "updatedAt": "2026-10-31T16:19:55.045Z"
 }

@@ -1,5 +1,23 @@
 [
   {
+    "round": 1248,
+    "date": "2026-10-31",
+    "title": "로또 1248회 당첨번호 16·18·27·36·38·42…1등 15명",
+    "numbers": [
+      16,
+      18,
+      27,
+      36,
+      38,
+      42
+    ],
+    "bonus": 22,
+    "firstWinners": 15,
+    "firstPrizePerWinner": 1933658450,
+    "firstStoreCount": 15,
+    "secondStoreCount": 91
+  },
+  {
     "round": 1247,
     "date": "2026-10-24",
     "title": "로또 1247회 당첨번호 8·14·21·22·42·45…1등 8명",
